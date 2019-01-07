@@ -1,7 +1,7 @@
 package com.ping.wu.service;
 
 import com.alibaba.dubbo.rpc.RpcException;
-import com.ping.wu.api.test.DemoService;
+import com.ping.wu.api.DemoService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
