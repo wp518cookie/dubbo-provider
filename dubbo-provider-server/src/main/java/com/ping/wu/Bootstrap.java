@@ -15,7 +15,6 @@ import org.springframework.context.annotation.PropertySource;
 @SpringBootApplication
 @EnableAutoConfiguration(exclude={DataSourceAutoConfiguration.class})
 @ImportResource("classpath:applicationContext.xml")
-@PropertySource("classpath:application.properties")
 public class Bootstrap {
     public static void main(String[] args) {
         SpringApplication.run(Bootstrap.class);
